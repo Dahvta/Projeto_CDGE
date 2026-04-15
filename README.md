@@ -1,6 +1,5 @@
 # Projeto_CDGE
 Pipeline completa de Engenharia de Dados e IA (XGBoost) para previsão de tendências.
-
 Aqui em baixo deixo um pequeno resumo de tudo aquilo que fiz resumidamente
 
 ## Ponto de partida
