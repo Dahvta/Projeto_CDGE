@@ -1,0 +1,16 @@
+# Projeto CDGE — TrendMart
+
+> ⚠️ Este repositório contém a fase inicial do projeto. O desenvolvimento continuou em [https://github.com/AlexandrTchikoulaev/Pr-Grande-Escala](https://github.com/AlexandrTchikoulaev/Pr-Grande-Escala), onde ambos contribuímos de forma contínua.
+
+## A minha contribuição
+
+[cite_start]Como a nossa equipa adotou uma abordagem transversal, estive envolvido em várias fases críticas da construção do *Data Lakehouse*[cite: 137, 138]. As minhas principais contribuições incidiram em:
+
+* [cite_start]**Ingestão Contínua (Streaming & CDC):** Implementação de pipelines de ingestão de dados em tempo quase-real utilizando **Apache Kafka** para eventos de *clickstream* e **Debezium** para *Change Data Capture* (CDC) a partir de uma base de dados PostgreSQL, armazenando os dados brutos no MinIO (Camada Bronze)[cite: 312, 313, 405].
+* [cite_start]**Processamento & Arquitetura Medallion:** Desenvolvimento de *jobs* de transformação distribuída com **Apache Spark** e **Apache Iceberg**, garantindo tipagem forte, operações ACID e deduplicação de registos (através de `MERGE INTO`) na transição para as camadas Silver e Gold[cite: 314, 331, 341].
+* [cite_start]**Camada Analítica & Visualização:** Modelação dimensional em esquema estrela [cite: 308][cite_start], criação de vistas analíticas distribuídas com **Apache Trino** e integração com a aplicação final de visualização de dados desenvolvida em **Plotly Dash**[cite: 308, 316, 924].
+
+## Continuação do projeto
+
+[cite_start]O desenvolvimento completo, incluindo **a orquestração de *pipelines* com Apache Airflow, a Analytical Sandbox, o modelo de previsão de procura (Machine Learning via Spark MLlib) e os 6 dashboards interativos atualizados em tempo real**[cite: 20, 21, 315], está centralizado no repositório final: 
+👉 [https://github.com/AlexandrTchikoulaev/Pr-Grande-Escala](https://github.com/AlexandrTchikoulaev/Pr-Grande-Escala)
