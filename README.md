@@ -1,7 +1,7 @@
 # Projeto_CDGE
 Pipeline completa de Engenharia de Dados e IA (XGBoost) para previsão de tendências.
 
-Aqui em baixo deixo um pequeno resumo de tudo aquilo que fiz resumidamente
+Aqui em baixo deixo um pequeno resumo de tudo aquilo que fizemos resumidamente
 
 ## Ponto de partida
 
@@ -9,7 +9,7 @@ Tinhas um dataset real de e-commerce brasileiro (Olist) com 112 mil transacçõe
 
 ---
 
-## O que construíste
+## O que construimos
 
 ### 1. Gerador de Google Trends realista
 
@@ -65,6 +65,6 @@ Tens uma arquitectura heterogénea completa com três fontes de dados (SQL trans
 
 ---
 
-## A limitação honesta que sabes explicar
+## A limitação 
 
 O `moving_avg_3` explica 80% do modelo porque os dados sintéticos têm variação limitada nos sinais externos. Com dados reais da Google Search Console, os search leads teriam importância de 15-25%. Sabes nomear e quantificar esta limitação — o que é exactamente o que distingue uma nota de 18 de uma nota de 20.
